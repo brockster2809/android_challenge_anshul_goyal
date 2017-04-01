@@ -1,4 +1,4 @@
-package com.brockster.searchflights;
+package com.brockster.searchflights.model;
 
 import java.util.HashMap;
 
@@ -6,7 +6,7 @@ import java.util.HashMap;
  * Created by user on 01-04-2017.
  */
 
-class Appendix {
+public class Appendix {
     private HashMap<String,String> providers;
 
     private HashMap<String,String> airports;

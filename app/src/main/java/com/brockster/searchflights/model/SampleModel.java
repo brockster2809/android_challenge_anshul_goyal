@@ -1,4 +1,7 @@
-package com.brockster.searchflights;
+package com.brockster.searchflights.model;
+
+import com.brockster.searchflights.model.Appendix;
+import com.brockster.searchflights.model.Flights;
 
 import java.util.ArrayList;
 

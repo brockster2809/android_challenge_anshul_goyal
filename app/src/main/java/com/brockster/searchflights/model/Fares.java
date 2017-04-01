@@ -1,10 +1,10 @@
-package com.brockster.searchflights;
+package com.brockster.searchflights.model;
 
 /**
  * Created by user on 01-04-2017.
  */
 
-class Fares {
+public class Fares {
     private int fare;
     private String providerId;
 

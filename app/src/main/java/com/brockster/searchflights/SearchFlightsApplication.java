@@ -1,10 +1,9 @@
 package com.brockster.searchflights;
 
 import android.app.Application;
-import android.os.Handler;
-import android.support.v7.widget.AppCompatTextView;
 
-import java.util.Timer;
+import com.brockster.searchflights.network.HttpService;
+import com.brockster.searchflights.utils.FLightUtility;
 
 /**
  * Created by user on 01-04-2017.

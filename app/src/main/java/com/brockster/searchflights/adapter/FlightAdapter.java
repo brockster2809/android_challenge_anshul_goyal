@@ -1,18 +1,21 @@
-package com.brockster.searchflights;
+package com.brockster.searchflights.adapter;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
+
+import com.brockster.searchflights.model.Appendix;
+import com.brockster.searchflights.model.Fares;
+import com.brockster.searchflights.model.Flights;
+import com.brockster.searchflights.R;
+import com.brockster.searchflights.model.SampleModel;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Date;
 
 /**

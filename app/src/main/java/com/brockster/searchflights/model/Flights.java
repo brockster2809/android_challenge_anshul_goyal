@@ -1,7 +1,6 @@
-package com.brockster.searchflights;
+package com.brockster.searchflights.model;
 
-import android.support.v7.widget.RecyclerView;
-
+import com.brockster.searchflights.model.Fares;
 import com.google.gson.annotations.SerializedName;
 
 import java.io.Serializable;
@@ -11,7 +10,7 @@ import java.util.ArrayList;
  * Created by user on 01-04-2017.
  */
 
-class Flights implements Serializable{
+public class Flights implements Serializable{
     private ArrayList<Fares> fares;
     private String destinationCode;
     private String airlineCode;

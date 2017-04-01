@@ -1,19 +1,17 @@
-package com.brockster.searchflights;
+package com.brockster.searchflights.network;
 
 import android.content.Context;
 import android.util.LruCache;
 
+import com.brockster.searchflights.interfaces.SearchFlightsService;
+import com.brockster.searchflights.model.SampleModel;
+import com.brockster.searchflights.utils.AppConstants;
 import com.squareup.okhttp.Cache;
 import com.squareup.okhttp.OkHttpClient;
-
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
 
 import retrofit.Callback;
 import retrofit.RestAdapter;
 import retrofit.client.OkClient;
-import retrofit.client.Response;
 
 /**
  * Created by user on 21-03-2016.

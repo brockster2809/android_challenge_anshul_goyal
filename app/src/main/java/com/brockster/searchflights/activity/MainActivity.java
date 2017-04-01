@@ -1,10 +1,8 @@
-package com.brockster.searchflights;
+package com.brockster.searchflights.activity;
 
 import android.app.AlertDialog;
-import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -19,8 +17,15 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.LinearLayout;
 import android.widget.ListView;
-import android.widget.Switch;
 import android.widget.Toast;
+
+import com.brockster.searchflights.network.HttpService;
+import com.brockster.searchflights.R;
+import com.brockster.searchflights.model.SampleModel;
+import com.brockster.searchflights.adapter.FlightAdapter;
+import com.brockster.searchflights.model.Fares;
+import com.brockster.searchflights.model.Flights;
+import com.brockster.searchflights.utils.FLightUtility;
 
 import java.util.ArrayList;
 import java.util.Collections;

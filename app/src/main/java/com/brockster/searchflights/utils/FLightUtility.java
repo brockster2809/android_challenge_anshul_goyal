@@ -1,4 +1,4 @@
-package com.brockster.searchflights;
+package com.brockster.searchflights.utils;
 
 import android.app.ProgressDialog;
 import android.content.Context;
