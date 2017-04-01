@@ -31,6 +31,11 @@ public class FlightAdapter extends RecyclerView.Adapter<FlightAdapter.FlightView
         this.flights = sampleModel.getFlights();
     }
 
+    public void setFlights(ArrayList<Flights> flights) {
+        this.flights = flights;
+        notifyDataSetChanged();
+    }
+
     @Override
     public FlightViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         LayoutInflater inflater = LayoutInflater.from(context);
